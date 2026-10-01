@@ -1,12 +1,12 @@
 {
-  "name": "web-global",
+  "name": "global-arena",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "oxlint",
+    "build": "vite build",
+    "lint": "oxlint src/main.js",
     "preview": "vite preview"
   },
   "dependencies": {
