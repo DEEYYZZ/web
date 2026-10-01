@@ -9,12 +9,12 @@ export function TournamentCta() {
       <div className={styles.glow} />
       <div ref={ref} className={`shell reveal ${styles.inner}`}>
         <span className={styles.badge}>
-          <span className={styles.dot} /> LIVE SEASON
+          <span className={styles.dot} /> TEMPORADA ACTIVA
         </span>
         <h2>Global Arena Championship</h2>
-        <p>Weekly brackets, global rankings, real prizes. Queue up and prove it.</p>
+        <p>Cuadros semanales, ranking global y premios reales. Forma tu squad y demuestra lo que vales.</p>
         <a href="#" className={styles.cta} data-cursor-active>
-          Register Now
+          Apuntarme al torneo
         </a>
       </div>
     </section>

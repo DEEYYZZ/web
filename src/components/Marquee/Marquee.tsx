@@ -1,11 +1,11 @@
 import styles from './Marquee.module.css';
 
 const items: readonly string[] = [
-  'RANKED PVP',
-  'WEEKLY TOURNAMENTS',
-  'CUSTOM KITS',
-  'GLOBAL LEADERBOARDS',
-  'SEASONAL REWARDS',
+  'PVP COMPETITIVO',
+  'TORNEOS SEMANALES',
+  'KITS PERSONALIZADOS',
+  'RANKING GLOBAL',
+  'RECOMPENSAS DE TEMPORADA',
 ];
 
 const loopItems = [...items, ...items];

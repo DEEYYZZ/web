@@ -22,8 +22,8 @@ export function Team() {
     <section id="team" className={styles.section}>
       <div className="shell">
         <div ref={headRef} className={`reveal ${styles.head}`}>
-          <span className={styles.eyebrow}>THE TEAM</span>
-          <h2>Run by players, for players</h2>
+          <span className={styles.eyebrow}>EL EQUIPO</span>
+          <h2>Hecho por jugadores,<br />para jugadores</h2>
         </div>
         <div className={styles.grid}>
           {teamMembers.map((member, index) => (

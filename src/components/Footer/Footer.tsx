@@ -3,16 +3,16 @@ import styles from './Footer.module.css';
 
 const columns: ReadonlyArray<{ readonly title: string; readonly links: ReadonlyArray<{ label: string; href: string; external?: boolean }> }> = [
   {
-    title: 'Explore',
+    title: 'Explora',
     links: [
-      { label: 'Store', href: '/store' },
-      { label: 'Tournaments', href: '/#tournaments' },
-      { label: 'Stats', href: '/#stats' },
-      { label: 'Team', href: '/#team' },
+      { label: 'Tienda', href: '/store' },
+      { label: 'Torneos', href: '/#tournaments' },
+      { label: 'Estadísticas', href: '/#stats' },
+      { label: 'Equipo', href: '/#team' },
     ],
   },
   {
-    title: 'Community',
+    title: 'Comunidad',
     links: [
       { label: 'Discord', href: 'https://discord.com', external: true },
       { label: 'Twitter / X', href: 'https://x.com', external: true },
@@ -20,11 +20,11 @@ const columns: ReadonlyArray<{ readonly title: string; readonly links: ReadonlyA
     ],
   },
   {
-    title: 'Legal',
+    title: 'Información',
     links: [
-      { label: 'Terms of Service', href: '#' },
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Refund Policy', href: '#' },
+      { label: 'Normas del servidor', href: '#' },
+      { label: 'Privacidad', href: '#' },
+      { label: 'Soporte', href: 'https://discord.gg/globalarena', external: true },
     ],
   },
 ];
@@ -37,7 +37,7 @@ export function Footer() {
           <span className={styles.brandWord}>
             GLOBAL<span className={styles.brandAccent}>ARENA</span>
           </span>
-          <p>From the player, for the player.</p>
+          <p>Creado por jugadores,<br />para jugadores.</p>
         </div>
         <div className={styles.cols}>
           {columns.map((col) => (

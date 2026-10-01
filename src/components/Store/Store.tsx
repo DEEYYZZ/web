@@ -11,9 +11,9 @@ export function Store() {
     <section id="store" className={styles.section}>
       <div className="shell">
         <div ref={headRef} className={`reveal ${styles.head}`}>
-          <span className={styles.eyebrow}>THE STORE</span>
-          <h2>Gear up for battle</h2>
-          <p>Ranks, kits and cosmetics — every purchase fuels the next tournament season.</p>
+          <span className={styles.eyebrow}>TIENDA DEL SERVIDOR</span>
+          <h2>Lo que necesitas<br />para competir</h2>
+          <p>Productos oficiales, activación por ticket y cero complicaciones. Elige tu pack y habla con el staff.</p>
         </div>
         <div className={styles.grid}>
           {storeItems.map((item, index) => (
@@ -22,7 +22,7 @@ export function Store() {
         </div>
         <div className={styles.viewAll}>
           <Link to="/store" className={styles.viewAllBtn} data-cursor-active>
-            View Full Store
+            Ver toda la tienda
           </Link>
         </div>
       </div>
